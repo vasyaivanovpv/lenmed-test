@@ -1,0 +1,76 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+thead th:nth-child(1) {
+  width: 14%;
+}
+thead th:nth-child(2) {
+  width: 36%;
+}
+thead th:nth-child(3) {
+  width: 14%;
+}
+thead th:nth-child(4) {
+  width: 36%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+td:nth-child(2) {
+  width: 70%;
+  text-align: right;
+}
+td:nth-child(3) {
+  width: 30%;
+  text-align: center;
+}
+td:nth-child(4) {
+  text-align: center;
+}
+td:nth-child(5) {
+  width: 100%;
+  text-align: center;
+}
+td:nth-child(6) {
+  text-align: left;
+}
+img {
+  width: auto;
+  height: 50px;
+}
+
+.App-container {
+  width: 800px;
+  margin: 0 auto;
+}
+.Matches-container {
+  width: 100%;
+}
+.Cards-root {
+  display: inline-block;
+  margin: 0 6px;
+}
+.Card-root {
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  margin: 0 2px;
+  border-radius: 2px;
+  background: red;
+}
+.Match-isFinished {
+  color: #000;
+}
+.Match-isLive {
+  color: red;
+}
