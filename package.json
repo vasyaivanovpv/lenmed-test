@@ -1,10 +1,13 @@
 {
+  "homepage": "https://vasyaivanovpv.github.io/lenmed-test",
   "name": "lenmed-test",
   "version": "1.0.0",
   "main": "index.js",
   "author": "vasyaivanovpv",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
@@ -28,6 +31,7 @@
     "eslint-plugin-import": "latest",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "latest",
+    "gh-pages": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "prettier": "^2.0.2",
     "style-loader": "^0.23.0",
